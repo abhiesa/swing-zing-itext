@@ -13,6 +13,16 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <itext.version>7.1.14</itext.version>
     </properties>
+         
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/abhiesa/swing-zing-itext</url>
+    </repository>
+  </distributionManagement>
+
 
     <dependencies>
         <dependency>
